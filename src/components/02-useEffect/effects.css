@@ -2,6 +2,6 @@ body {
   padding: 70px;
 }
 
-.form-group {
+.form-group, button {
   margin-top: 10px;
 }
