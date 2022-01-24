@@ -1,4 +1,5 @@
-import React, { memo } from 'react';
+// import React, { memo } from 'react';
+import React from 'react';
 
 // export const Small = memo(({ value }) => {
 export const Small = React.memo(({ value }) => {
