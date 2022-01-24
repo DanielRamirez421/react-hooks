@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ShowIncrement = ({ increment }) => {
+export const ShowIncrement = React.memo(({ increment }) => {
 
   console.log(`i'm calling me again :(`);
 
@@ -13,4 +13,4 @@ export const ShowIncrement = ({ increment }) => {
     </button>
   </div>
   );
-};
+});
