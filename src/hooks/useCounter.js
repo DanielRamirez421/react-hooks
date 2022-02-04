@@ -10,6 +10,7 @@ export const useCounter = ( initialState = 10 ) => {
 
     return {
         state,
+        
         increment,
         decrement,
         reset
