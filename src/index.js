@@ -11,12 +11,12 @@ import { MainApp } from './components/09-useContext/MainApp';
 // import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 // import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
-import { CounterCustomHook } from './components/01-useState/CounterCustomHook';
+// import { CounterCustomHook } from './components/01-useState/CounterCustomHook';
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { HookApp } from './HookApp';
 // import './components/08-useReducer/intro-reducer'
 
 ReactDOM.render(  
-    <CounterCustomHook />,
+    <MainApp />,
   document.getElementById('root')
 );

@@ -22,7 +22,7 @@ describe('useCounter hook test', () => {
   });
 
   test('should decrement counter in one', () => {
-    const { result } = renderHook(() => useCounter());
+    const { result } = renderHook(() => useCounter()); // TODO: Try to dont use object destructuration in tests
     act(() => result.current.decrement(1));
     expect(result.current.state).toBe(9);
   });

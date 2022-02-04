@@ -4,7 +4,7 @@ import { UserContext } from '../context/UserContext';
 export const LoginScreen = () => {
 
   const { setUser } = useContext(UserContext);
-  const userExample = { id: 123, name: 'Daniel', username: 'dm.ramirez' }
+  const userExample = { id: 123, name: 'Daniel', username: 'damtrax' }
 
   return (
     <div>
