@@ -16,24 +16,15 @@ export const TodoApp = () => {
   useEffect(() => localStorage.setItem('toDos', JSON.stringify( toDosState )), [ toDosState ]);
   
   const handleDelete = ( todoId ) => {
-    dispatch({ 
-      type: 'delete', 
-      payload: todoId 
-    });    
+    dispatch({ type: 'delete', payload: todoId });    
   }
 
   const handleToggle = (todoId) => {
-    dispatch({ 
-      type: 'toggle', 
-      payload: todoId 
-    });
+    dispatch({ type: 'toggle', payload: todoId });
   }
 
   const handleAdd = ( newTodo ) => {
-    dispatch({ 
-      type: 'add', 
-      payload: newTodo
-    });
+    dispatch({ type: 'add', payload: newTodo });
   }
 
   return (

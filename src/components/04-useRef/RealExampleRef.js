@@ -15,7 +15,8 @@ export const RealExampleRef = () => {
     <button 
       className='btn btn-outline-primary mb-3' 
       onClick={ () => setShow(!show) }
-      >Toggle
+      >
+        Toggle
       </button>
     { show && <MultipleCustomHooks /> }
   </div>
