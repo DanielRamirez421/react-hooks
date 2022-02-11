@@ -19,8 +19,6 @@ describe('useFetch tests', () => {
     const { result, waitForNextUpdate } = renderHook(() => useFetch(url));
     await waitForNextUpdate();
 
-    console.log(result.current);
-
     expect(result.current.data.length).toBe(1);
     expect(result.current.loading).toBeFalsy();
     expect(result.current.error).toBe(null);

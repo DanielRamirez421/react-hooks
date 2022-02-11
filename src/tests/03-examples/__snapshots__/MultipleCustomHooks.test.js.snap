@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultipleCustomHooks tests Should show component 1`] = `
+<div>
+  <h1>
+    Breaking bad Quotes
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading ...
+  </div>
+  <button
+    className="btn btn-primary me-3"
+    onClick={[Function]}
+  >
+    Previous Quote: 
+    9
+  </button>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote: 
+    11
+  </button>
+</div>
+`;
