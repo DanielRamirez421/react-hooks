@@ -1,9 +1,10 @@
 import React from 'react';
 import { useForm } from '../../hooks/useForm';
+import PropTypes from 'prop-types';
 
 export const TodoAdd = ({ handleAdd }) => {
 
-  const [ { description }, handleInputChange, resetValues ] = useForm({ description: '' });
+  const [ { description }, handleInputChange, resetFormValues ] = useForm({ description: '' });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,7 +15,7 @@ export const TodoAdd = ({ handleAdd }) => {
       desc: description.trim(), 
       done: false  
     })
-    resetValues();
+    resetFormValues();
   }
 
   return (
@@ -48,3 +49,7 @@ export const TodoAdd = ({ handleAdd }) => {
   </div>
   );
 };
+
+TodoAdd.propTypes = {
+  handleAdd: PropTypes.func.isRequired,
+}
