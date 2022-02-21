@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem component tests should show component correctly 1`] = `
+<div
+  className="row my-1"
+  onClick={[Function]}
+  role="button"
+>
+  <div
+    className="col-10"
+  >
+    <li
+      className="list-group-item text-center false"
+    >
+      1
+      . 
+      do tests
+    </li>
+  </div>
+  <div
+    className="col-2"
+  >
+    <button
+      className="btn btn-danger"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;
