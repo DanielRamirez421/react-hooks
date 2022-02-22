@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component tests <TodoApp /> should show component 1`] = `
+<Fragment>
+  <h3>
+    TodoApp length: 
+    0
+  </h3>
+  <hr />
+  <div
+    className="row justify-content-sm-between"
+  >
+    <TodoList
+      handleDelete={[Function]}
+      handleToggle={[Function]}
+      toDosState={Array []}
+    />
+    <TodoAdd
+      handleAdd={[Function]}
+    />
+  </div>
+</Fragment>
+`;
